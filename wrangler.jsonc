@@ -55,8 +55,9 @@
 			"simple": { "limit": 120, "period": 60 },
 		},
 	],
+	// Workers Logs off: theweeklydash.com's privacy policy promises debug logs are gone after seven days at most.
 	"observability": {
-		"enabled": true,
+		"enabled": false,
 	},
 	"upload_source_maps": true,
 	"send_email": [
